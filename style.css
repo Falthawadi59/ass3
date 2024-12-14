@@ -1,0 +1,40 @@
+/* تخصيص تصميم الجدول */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* تخصيص رأس الجدول */
+thead th {
+    background-color: #007bff; /* لون أزرق */
+    color: #ffffff; /* لون النص أبيض */
+    padding: 10px;
+}
+
+/* تخصيص الخلايا */
+tbody td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* لون مختلف للصفوف */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* لون التمرير في الحاوية */
+.container {
+    margin: auto;
+    max-width: 90%;
+}
+
+/* تحسين النصوص */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 24px;
+    color: #333;
+}
